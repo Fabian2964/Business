@@ -20,6 +20,12 @@ The dataset contains 37,485 articles, 119 days of website traffic and 187 numeri
 ### Descriptive
 Weeks with low traffic were compared to those with high traffic for (a) before start of Ukraine war; (b) after start of the war; (c) low/high traffic weeks identified by difference-in-differences approach between F.A.Z. and SZ. Additionally, general article and publication characteristics were compared between the two publishers.
 
+![image](https://user-images.githubusercontent.com/98846184/188964999-48e6f353-4fb7-4447-a2fc-ea57fc3da6c8.png)
+
+![image](https://user-images.githubusercontent.com/98846184/188964834-81338686-d4d4-4544-a93f-c24a5eb8b223.png)
+
+![image](https://user-images.githubusercontent.com/98846184/188964897-30199831-074b-44c9-bdf9-1fd7ae4653ba.png)
+
 ### Models
 Linear regression, lasso, ridge, elastic net, polynomial regression, random forest regressor and gradient boosting regressor were used. Throughout, linear regression was used to check on p-values of each feature to ensure significance.
 
@@ -27,10 +33,10 @@ Linear regression, lasso, ridge, elastic net, polynomial regression, random fore
 The training dataset of 119 days was split into 90/10 train vs. test, and all scores reported below were calculated with 10-fold cross validation on the training portion only. Predictions on 10% test were limited to the very end, so this split was only used and scores seen just once. Models were evaluated based on their generalization performance using R², Mean Absolute Error (MAE) and Root Mean Square Error (RMSE). Simple linear regression had a R² of 0.63 on the test sample versus a mean R² of 0.43 on the 10-fold CV sample.
 
 ## Tools
-    •	BeautifulSoup for webscraping and Selenium for automatic download of files
-    •	Microsoft Excel for Exploratory Data Analysis (EDA)
-    •	Microsoft Excel for generating descriptive statistics
-    •	Tableau and Excel for visualization
-    •	NumPy and pandas for data manipulation
-    •	Statsmodels and scikit-learn for modeling
-    •	Matplotlib and Seaborn for plotting
+    • BeautifulSoup for webscraping and Selenium for automatic download of files
+    • Microsoft Excel for Exploratory Data Analysis (EDA)
+    • Microsoft Excel for generating descriptive statistics
+    • Tableau and Excel for visualization
+    • NumPy and pandas for data manipulation
+    • Statsmodels and scikit-learn for modeling
+    • Matplotlib and Seaborn for plotting
