@@ -27,10 +27,10 @@ Linear regression, lasso, ridge, elastic net, polynomial regression, random fore
 The training dataset of 119 days was split into 90/10 train vs. test, and all scores reported below were calculated with 10-fold cross validation on the training portion only. Predictions on 10% test were limited to the very end, so this split was only used and scores seen just once. Models were evaluated based on their generalization performance using R², Mean Absolute Error (MAE) and Root Mean Square Error (RMSE). Simple linear regression had a R² of 0.63 on the test sample versus a mean R² of 0.43 on the 10-fold CV sample.
 
 ## Tools
-•	BeautifulSoup for webscraping and Selenium for automatic download of files
-•	Microsoft Excel for Exploratory Data Analysis (EDA)
-•	Microsoft Excel for generating descriptive statistics
-•	Tableau and Excel for visualization
-•	NumPy and pandas for data manipulation
-•	Statsmodels and scikit-learn for modeling
-•	Matplotlib and Seaborn for plotting
+    •	BeautifulSoup for webscraping and Selenium for automatic download of files
+    •	Microsoft Excel for Exploratory Data Analysis (EDA)
+    •	Microsoft Excel for generating descriptive statistics
+    •	Tableau and Excel for visualization
+    •	NumPy and pandas for data manipulation
+    •	Statsmodels and scikit-learn for modeling
+    •	Matplotlib and Seaborn for plotting
