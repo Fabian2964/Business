@@ -1,4 +1,4 @@
-# Increase publisher website traffic by article & publication features
+# Analysis of FAZ and SZ website traffic by article & publication features
 
 ## Abstract
 Goal of the project is to perform an analysis of article content of two leading German news publishers Frankfurter Allgemeine Zeitung (F.A.Z.) and Süddeutsche Zeitung (SZ) and give recommendations to journalists and editorial board on how to adjust the article publication behavior and article characteristics itself to increase website traffic and ultimately subscribers. The analysis is performed by identifying weeks with high website traffic and comparing article features of these weeks to those with lower website traffic. Furthermore, a direct comparison of article features between both publishers was conducted. Also, a regression model was trained and significantly correlated variables identified using daily website traffic as. In terms of modelling I used linear regression, lasso, ridge, polynomial regression, random forest regressor and gradient boosting regressor.
